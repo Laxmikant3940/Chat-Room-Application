@@ -1,0 +1,96 @@
+
+.chat-app {
+display: flex;
+flex-direction: column;
+align-items: center;
+font-family: sans-serif;
+width: 90%;
+margin: auto;
+overflow: hidden;
+border-radius: 5px;
+border: 2px solid #365998;
+}
+.header {
+background-color: #365998;
+align-items: center;
+color: white;
+width: 100%
+}
+.messages {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+width: 100%;
+height: 80%;
+overflow-y: auto;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.message {
+    display: flex;
+    align-bottom: flex-start;
+    margin-bottom: 10px;
+}
+
+.user {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #333;
+}
+
+.new-message-form{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+.new-message-input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px 0 0 5px;
+}
+.send-button {
+    border: none;
+    outline: none;
+    background: #3b5998;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.room {
+    background-color: #365998;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content:space-around; 
+    border: 2px solid #365998;
+    gap: 10px;
+}
+.room label {
+    color: black;
+    text-align: center;
+    font-weight: 800;
+}
+#enter-room {
+    align-self: center;
+    text-align: centers;
+}
+.sign-out{
+    background-color: white;
+    align-items: center;
+    color: blue;
+    width: 100%
+
+}
+.sign-out button{
+    background-color: blue;
+    color: white;
+}
