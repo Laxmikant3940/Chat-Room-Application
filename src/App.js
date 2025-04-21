@@ -24,7 +24,7 @@ function App() {
   if (!isAuth) {
   return (
   <div>
-    <Auth ssetIsAuth={setIsAuth}/>
+    <Auth setIsAuth={setIsAuth}/>
    </div>
   );
 }
